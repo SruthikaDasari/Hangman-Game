@@ -5,7 +5,7 @@ import HangmanIllustration from "./components/HangmanIllustration";
 import { GameProvider } from "./context/GameContext";
 // Main application component
 export default function App() {
-  return (
+  return 
     // Wrapping the app with GameProvider for state management
     <GameProvider>
       <div className="flex h-screen items-center justify-center px-3">
